@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CampusExpenseManager</string>
+
+    <string-array name="expense_categories">
+        <item>Ăn uống</item>
+        <item>Di chuyển</item>
+        <item>Học tập</item>
+        <item>Giải trí</item>
+        <item>Nhà ở</item>
+        <item>Mua sắm</item>
+        <item>Khác</item>
+    </string-array>
+</resources>

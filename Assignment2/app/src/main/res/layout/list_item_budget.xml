@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Phần hiển thị tên danh mục và số tiền -->
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical"
+android:layout_marginEnd="8dp">
+
+<TextView
+    android:id="@+id/tv_budget_category_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Category Name"
+android:textSize="17sp"
+android:textStyle="bold"
+android:textAppearance="?attr/textAppearanceListItem" />
+
+<TextView
+    android:id="@+id/tv_budget_amount"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="1,000,000 VND"
+android:textSize="15sp"
+android:textAppearance="?attr/textAppearanceListItemSecondary" />
+</LinearLayout>
+
+    <!-- Nút Sửa Ngân Sách -->
+<ImageButton
+android:id="@+id/iv_edit_budget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_edit"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:padding="8dp"
+    android:contentDescription="Edit Budget"
+    android:focusable="false"
+    android:clickable="true"/>
+
+    <!-- Nút Xóa Ngân Sách -->
+<ImageButton
+android:id="@+id/iv_delete_budget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_delete"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:padding="8dp"
+    android:layout_marginStart="8dp"
+    android:contentDescription="Delete Budget"
+    android:focusable="false"
+    android:clickable="true"/>
+
+
+    </LinearLayout>
